@@ -25,23 +25,23 @@ const team = [
 ];
 
 
-// // FOR LOOP 
-// for (let index = 0; index < team.length; index++) {
-//   console.log(team[index]);
-// }
+// FOR LOOP 
+for (let index = 0; index < team.length; index++) {
+  console.log(team[index]);
+}
 
-// // FOR OF LOOP
-// for (const letter of word) {
-//   console.log(letter);
-// }
-// for (const instructor of team) {
-//   console.log(instructor);
-// }
+// FOR OF LOOP
+for (const letter of word) {
+  console.log(letter);
+}
+for (const instructor of team) {
+  console.log(instructor);
+}
 
-// // FOR EACH LOOP ONLY FOR ARRAYS
-// team.forEach((memberObj) => {
-//   console.log(memberObj.name);
-// });
+// FOR EACH LOOP ONLY FOR ARRAYS
+team.forEach((memberObj) => {
+  console.log(memberObj.name);
+});
 
 // TARGETING ELEMENTS ON THE DOM
 const app = document.querySelector("#app");
